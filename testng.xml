@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="browserName" value="Chrome"></parameter>
+    <classes>
+      <class name="TC_DemowebShop_001.TC_DWS_004"/>
+      <class name="TC_DemowebShop_001.TC_DWS_005"/>
+      <class name="TC_DemowebShop_001.TC_DWS_006"/>
+      <class name="TC_DemowebShop_001.TC_DWS_007"/>
+      <class name="TC_DemowebShop_001.TC_DWS_001"/>
+      <class name="TC_DemowebShop_001.TC_DWS_002"/>
+      <class name="TC_DemowebShop_001.TC_DWS_003"/>
+      <class name="TC_DemowebShop_001.TC_DWS_010"/>
+      <class name="TC_DemowebShop_001.TC_DWS_008"/>
+      <class name="TC_DemowebShop_001.TC_DWS_009"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
