@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TC_DemowebShop_001.TC_DWS_001">
+      <class name="OrangeHRM.EmployeeManagementTest">
         <methods>
-          <include name="toLogout"/>
-          <include name="toCheckBooksPage"/>
-          <include name="toLogin"/>
-          <include name="toCloseBrowser"/>
-          <include name="toLaunch"/>
+          <include name="testEmployeeWorkflow"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- TC_DemowebShop_001.TC_DWS_001 -->
+      </class> <!-- OrangeHRM.EmployeeManagementTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

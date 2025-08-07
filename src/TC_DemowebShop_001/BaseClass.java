@@ -58,5 +58,7 @@ public class BaseClass {
 	public void toCloseBrowser() {
 		Reporter.log("Browser got closed Successfully",true);
 		driver.quit();
+		
+		
 	}
 }

@@ -1,75 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Browser got Launched successfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser got Maximized successfully]]>
-    </line>
-    <line>
-      <![CDATA[Navigate To demowebshop Successfully]]>
-    </line>
-    <line>
-      <![CDATA[Navigated to Homepage Succesfully]]>
-    </line>
-    <line>
-      <![CDATA[TaseCase 001 Executed successfully]]>
-    </line>
-    <line>
-      <![CDATA[Successfully logged out]]>
-    </line>
-    <line>
-      <![CDATA[Browser got closed Successfully]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-01-23T12:27:39 IST" name="Default suite" finished-at="2024-01-23T12:27:56 IST" duration-ms="17435">
+  <suite started-at="2025-08-07T20:43:17 IST" name="Default suite" finished-at="2025-08-07T20:43:48 IST" duration-ms="31117">
     <groups>
     </groups>
-    <test started-at="2024-01-23T12:27:39 IST" name="Default test" finished-at="2024-01-23T12:27:56 IST" duration-ms="17435">
-      <class name="TC_DemowebShop_001.TC_DWS_001">
-        <test-method is-config="true" signature="toLaunch()[pri:0, instance:TC_DemowebShop_001.TC_DWS_001@139982de]" started-at="2024-01-23T12:27:39 IST" name="toLaunch" finished-at="2024-01-23T12:27:44 IST" duration-ms="5617" status="PASS">
+    <test started-at="2025-08-07T20:43:17 IST" name="Default test" finished-at="2025-08-07T20:43:48 IST" duration-ms="31117">
+      <class name="OrangeHRM.EmployeeManagementTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:OrangeHRM.EmployeeManagementTest@6a78afa0]" started-at="2025-08-07T20:43:17 IST" name="setUp" finished-at="2025-08-07T20:43:25 IST" duration-ms="8548" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Browser got Launched successfully]]>
-            </line>
-            <line>
-              <![CDATA[Browser got Maximized successfully]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- toLaunch -->
-        <test-method is-config="true" signature="toLogin()[pri:0, instance:TC_DemowebShop_001.TC_DWS_001@139982de]" started-at="2024-01-23T12:27:44 IST" name="toLogin" finished-at="2024-01-23T12:27:53 IST" duration-ms="8844" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmployeeWorkflow()[pri:0, instance:OrangeHRM.EmployeeManagementTest@6a78afa0]" started-at="2025-08-07T20:43:25 IST" name="testEmployeeWorkflow" finished-at="2025-08-07T20:43:47 IST" duration-ms="22014" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Navigate To demowebshop Successfully]]>
-            </line>
-            <line>
-              <![CDATA[Navigated to Homepage Succesfully]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- toLogin -->
-        <test-method signature="toCheckBooksPage()[pri:0, instance:TC_DemowebShop_001.TC_DWS_001@139982de]" started-at="2024-01-23T12:27:53 IST" name="toCheckBooksPage" finished-at="2024-01-23T12:27:54 IST" duration-ms="1218" status="PASS">
+        </test-method> <!-- testEmployeeWorkflow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:OrangeHRM.EmployeeManagementTest@6a78afa0]" started-at="2025-08-07T20:43:47 IST" name="tearDown" finished-at="2025-08-07T20:43:48 IST" duration-ms="499" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[TaseCase 001 Executed successfully]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- toCheckBooksPage -->
-        <test-method is-config="true" signature="toLogout()[pri:0, instance:TC_DemowebShop_001.TC_DWS_001@139982de]" started-at="2024-01-23T12:27:54 IST" name="toLogout" finished-at="2024-01-23T12:27:56 IST" duration-ms="1159" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Successfully logged out]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- toLogout -->
-        <test-method is-config="true" signature="toCloseBrowser()[pri:0, instance:TC_DemowebShop_001.TC_DWS_001@139982de]" started-at="2024-01-23T12:27:56 IST" name="toCloseBrowser" finished-at="2024-01-23T12:27:56 IST" duration-ms="510" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Browser got closed Successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- toCloseBrowser -->
-      </class> <!-- TC_DemowebShop_001.TC_DWS_001 -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- OrangeHRM.EmployeeManagementTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
